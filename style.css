@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('ufo.png?v=1') 0 0, auto;  
+}
+
+body {    
+    background-image: url(./space_image.jpg);
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table-scroll {
+    overflow-y: scroll;
+}
+
+.header-horizontal {
+    padding: 0;
+    z-index: 12;
+    width: 100%;
+    height: 78px;    
+    position: sticky;
+    display: flex;
+    align-items: center;
+    transition: var(--transition);
+    background-color: rgb(31, 30, 30, .7);
+    background-size: auto 78px;
+    background-repeat: repeat-x;
+    background-position: top;    
+}
+
+.app-wrapper {
+    width: 100%;
+}
+
+.header-logo {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 9px;
+}
+
+.header-menu {
+    width: 100%;
+      
+}
+
+.btn-conect {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;    
+    padding: 50px;
+    overflow: hidden;
+    background-color:  rgb(31, 30, 30, 0); 
+    font-size: 100%;
+    vertical-align: -webkit-baseline-middle;
+    background: transparent;
+    }  
+
+  
+li {
+    float: left;
+    margin-left: 50px;     
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+  
+.header-menu-item {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none; 
+    letter-spacing: 4px;   
+}
+
+.neon {
+    color: #3df325;
+    text-shadow:
+      0 0 7px #3df325,
+      0 0 10px #3df325,
+      0 0 21px #3df325,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;      
+}
+
+.neon-text { 
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none; 
+    letter-spacing: 4px;   
+    color: #3df325;
+    text-shadow:
+      0 0 7px #3df325,
+      0 0 10px #3df325,
+      0 0 21px #3df325,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa; 
+      position: absolute;
+      right: 200px;
+}
+
+.hh-table-scroll {
+    position: fixed;
+}
+  
+li a:hover {   
+    color: #3df325;
+    cursor: url('ufo.png?v=1') 0 0, auto;    
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+.justify-content-between {
+    justify-content: space-between!important;
+}
+
+.d-flex {
+    display: flex!important;
+    color: white;
+    margin-left: 50px;
+}
+
+button {
+    height: auto;
+    padding: 15px;
+    background: #3df325;
+    outline: black;
+    border: 1;
+    border-radius: auto;
+    cursor: url('ufo.png?v=1') 0 0, auto;
+    margin: 0 auto;       
+    letter-spacing: 4px;
+    position: absolute;    
+    right: 70px;       
+}
+
+.on-page {
+    color: #3df325;
+}
+
+h1 {    
+    text-align: center;
+    cursor: url('ufo.png?v=1') 0 0, auto;
+}
+
+
+.inscription-heading {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: -120px;
+}
+
+article {
+    min-height: 100vh;
+    display: grid;    
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    opacity: 70%;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.bottom-center{
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inscription-table {
+    width: 75%;
+    border-collapse: seperate;
+    border: 2px solid black;
+    display: table;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    text-indent: initial;
+    border-spacing: 2px;
+    color: white;
+    text-align: center;
+    cursor: url('ufo.png?v=1') 0 0, auto;
+}
+
+th {
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+}
+
+.table-header {
+    font-size: 50px;
+    padding: 5px;
+}
+
+.table-titles {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table-footer {
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    width: 90vw;    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    grid-auto-rows: 150px;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: dense;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+  }  
+  
+  main a {
+    overflow: hidden;
+  }
+  
+  main a:nth-of-type(1) {
+    grid-column: span 2;
+  }
+  main a:nth-of-type(6) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  main a:nth-of-type(4) {
+    grid-row: span 2;
+  }
+  
+  main a:focus {
+    outline: none;
+  }
+
+  main img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.6);
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transform: scale(1);
+  }
+
+  main a:focus img,
+  main a:hover img {
+    transform: scale(1.1);
+    filter: brightness(1);
+  }
+
+.custom-cursor {
+    cursor: url('ufo.png?v=1') 0 0, auto;
+}
