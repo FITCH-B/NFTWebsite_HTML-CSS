@@ -44,8 +44,7 @@ body {
 }
 
 .header-menu {
-    width: 100%;
-      
+    width: 100%;      
 }
 
 ul {
@@ -53,11 +52,9 @@ ul {
     padding: 2.5rem;
     overflow: hidden;
     background-color:  rgb(31, 30, 30, 0); 
-    font-size: 100%;
     vertical-align: -webkit-baseline-middle;
     background: transparent;
-    }  
-
+}
   
 li {
     float: left;
@@ -153,7 +150,6 @@ h1 {
     cursor: url('ufo.png?v=1') 0 0, auto;
 }
 
-
 .inscription-heading {
     text-align: center;
     margin-top: 3rem;
@@ -186,10 +182,6 @@ footer {
     transform: translateX(-50%);
 }
 
-.table-box {
-    max-width: 1000vh;
-}
-
 .table-box td:nth-child(3) {
     max-width: 5rem;
     white-space: nowrap;
@@ -211,11 +203,7 @@ footer {
     cursor: url('ufo.png?v=1') 0 0, auto;
 }
 
-th {
-    border: .1rem solid black;
-}
-
-td {
+th, td {
     border: .1rem solid black;
 }
 
@@ -248,26 +236,28 @@ main {
     transform: translate(-50%, -50%);    
   }  
   
-  main a {
+main a {    
     overflow: hidden;
-  }
+}
   
-  main a:nth-of-type(1) {
+main a:nth-of-type(1) {
     grid-column: span 2;
-  }
-  main a:nth-of-type(6) {
-    grid-column: span 2;
-    grid-row: span 2;
-  }
-  main a:nth-of-type(4) {
-    grid-row: span 2;
-  }
-  
-  main a:focus {
-    outline: none;
-  }
+}
 
-  main img {
+main a:nth-of-type(6) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+main a:nth-of-type(4) {
+    grid-row: span 2;
+}
+  
+main a:focus {
+    outline: none;
+}
+
+main img {
     object-fit: cover;
     display: block;
     width: 100%;
@@ -275,13 +265,13 @@ main {
     filter: brightness(0.6);
     transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transform: scale(1);
-  }
+}
 
-  main a:focus img,
-  main a:hover img {
+main a:focus img,
+main a:hover img {
     transform: scale(1.1);
     filter: brightness(1);
-  }
+}
 
 .custom-cursor {
     cursor: url('ufo.png?v=1') 0 0, auto;
