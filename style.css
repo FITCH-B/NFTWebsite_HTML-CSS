@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url('ufo.png?v=1') 0 0, auto;  
+    cursor: url('ufo.png?v=1') 0 0, auto;
+    font-size: 20px;  
 }
 
 body {    
@@ -23,27 +24,23 @@ body {
     padding: 0;
     z-index: 12;
     width: 100%;
-    height: 78px;    
+    height: 3.9rem;    
     position: sticky;
     display: flex;
     align-items: center;
     transition: var(--transition);
     background-color: rgb(31, 30, 30, .7);
-    background-size: auto 78px;
+    background-size: auto 3.9rem;
     background-repeat: repeat-x;
     background-position: top;    
 }
 
-.app-wrapper {
-    width: 100%;
-}
-
 .header-logo {
-    width: 70px;
-    height: 70px;
+    width: 3.5rem;
+    height: 3.5rem;
     display: block;
-    margin-top: 5px;
-    margin-bottom: 9px;
+    margin-top: .25rem;
+    margin-bottom: .45rem;
 }
 
 .header-menu {
@@ -52,9 +49,8 @@ body {
 }
 
 ul {
-    list-style-type: none;
     margin: 0;    
-    padding: 50px;
+    padding: 2.5rem;
     overflow: hidden;
     background-color:  rgb(31, 30, 30, 0); 
     font-size: 100%;
@@ -65,7 +61,7 @@ ul {
   
 li {
     float: left;
-    margin-left: 50px;     
+    margin-left: 2.5rem;     
 }
 
 a:link {
@@ -82,42 +78,42 @@ a:visited {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 10px 30px;
+    padding: .5rem 1.5rem;
     text-decoration: none; 
-    letter-spacing: 4px;   
+    letter-spacing: .2rem;   
 }
 
 .neon {
     color: #3df325;
     text-shadow:
-      0 0 7px #3df325,
-      0 0 10px #3df325,
-      0 0 21px #3df325,
-      0 0 42px #0fa,
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa;      
+      0 0 .35rem #3df325,
+      0 0 .5rem #3df325,
+      0 0 1.05rem #3df325,
+      0 0 2.1rem #0fa,
+      0 0 4.1rem #0fa,
+      0 0 4.6rem #0fa,
+      0 0 5.1rem #0fa,
+      0 0 7.55rem #0fa;      
 }
 
 .neon-text { 
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: .5rem;
     text-decoration: none; 
-    letter-spacing: 4px;   
+    letter-spacing: .2rem;   
     color: #3df325;
     text-shadow:
-      0 0 7px #3df325,
-      0 0 10px #3df325,
-      0 0 21px #3df325,
-      0 0 42px #0fa,
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa; 
+        0 0 .35rem #3df325,
+        0 0 .5rem #3df325,
+        0 0 1.05rem #3df325,
+        0 0 2.1rem #0fa,
+        0 0 4.1rem #0fa,
+        0 0 4.6rem #0fa,
+        0 0 5.1rem #0fa,
+        0 0 7.55rem #0fa;  
       position: absolute;
-      right: 200px;
+      right: 10rem;
 }
 
 .hh-table-scroll {
@@ -145,7 +141,7 @@ a:active {
 .d-flex {
     display: flex!important;
     color: white;
-    margin-left: 50px;
+    margin-left: 2.5rem;
 }
 
 .on-page {
@@ -160,8 +156,8 @@ h1 {
 
 .inscription-heading {
     text-align: center;
-    margin-top: 70px;
-    margin-bottom: -120px;
+    margin-top: 3rem;
+    margin-bottom: -6rem;
 }
 
 article {
@@ -173,7 +169,7 @@ article {
 footer {
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding: .25rem;
     background-color: #45a1ff;
     opacity: 70%;
     color: #fff;
@@ -185,7 +181,7 @@ footer {
 
 .bottom-center{
     position: fixed;
-    bottom: 5px;
+    bottom: .25rem;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -195,7 +191,7 @@ footer {
 }
 
 .table-box td:nth-child(3) {
-    max-width: 100px;
+    max-width: 5rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -203,46 +199,46 @@ footer {
 
 .inscription-table {
     border-collapse: separate;
-    border: 2px solid black;
+    border: .1rem solid black;
     display: table;
     box-sizing: border-box;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 5rem;
     text-indent: initial;
-    border-spacing: 2px;
+    border-spacing: .1rem;
     color: white;
     text-align: center;
     cursor: url('ufo.png?v=1') 0 0, auto;
 }
 
 th {
-    border: 2px solid black;
+    border: .1rem solid black;
 }
 
 td {
-    border: 2px solid black;
+    border: .1rem solid black;
 }
 
 .table-header {
-    font-size: 40px;
-    padding: 5px;
+    font-size: 2rem;
+    padding: .25rem;
 }
 
 .table-titles {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: bold;    
 }
 
 .table-footer {
-    padding: 10px;
+    padding: .5rem;
 }
 
 main {
-    max-width: 800px;
+    max-width: 40rem;
     width: 90vw;    
     display: grid;
-    grid-template-columns: repeat(auto-fit, 150px);
-    grid-auto-rows: 150px;
+    grid-template-columns: repeat(auto-fit, 7.5rem);
+    grid-auto-rows: 7.5rem;
     justify-content: center;
     align-content: center;
     grid-auto-flow: dense;
